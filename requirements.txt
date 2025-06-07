@@ -6,7 +6,5 @@ pypdf
 chromadb
 langchain-core
 python-dotenv
-sqlite
 numpy
 pandas
-sqlite

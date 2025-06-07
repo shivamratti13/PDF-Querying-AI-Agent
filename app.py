@@ -144,8 +144,8 @@ class PDFQueryAgent:
 st.set_page_config(page_title="PDF Q&A with Gemini", layout="centered")
 st.title("PDF Query Agent using Gemini")
 
-api_key = os.environ['GOOGLE_API_KEY']
-# api_key = st.text_input("Enter your Gemini API Key", type="password")
+# api_key = os.environ['GOOGLE_API_KEY']
+api_key = st.text_input("Enter your Gemini API Key", type="password")
 
 uploaded_file = st.file_uploader("Upload your PDF file", type=["pdf"])
 

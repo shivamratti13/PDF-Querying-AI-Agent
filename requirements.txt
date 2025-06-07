@@ -3,8 +3,10 @@ langchain
 langchain-google-genai
 langchain-community
 pypdf
-chromadb
 langchain-core
 python-dotenv
 numpy
 pandas
+protobuf==3.20.3
+chromadb==0.4.24   
+opentelemetry-exporter-otlp==1.19.0
